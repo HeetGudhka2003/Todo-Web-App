@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: #ffffff;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+}
+
+
+.logo {
+    font-size: 30px;
+    color: #00A5EC;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+.task-container {
+    float: right;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: #00A5EC;
+    border: #00A5EC;
+    cursor: pointer;
+}
+
+.fa-plus {
+    color: #FFFFFF;
+    margin-top: 1px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+a {
+    white-space: nowrap;
+    margin-top: -32px;
+    text-decoration: none;
+    color: #00A5EC;
+}
+
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.flex-box {
+    width: 330px;
+    height: 240px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin-top: 3px;
+    margin-left: 27px;
+    justify-content: space-between;
+    box-shadow: 7px 7px 7px 7px #7B7B7B29;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+p {
+    margin-left: 57px;
+    margin-top: 30px;
+    color: #00A5EC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+hr.one {
+    margin-top: 30px;
+    box-shadow: 5px 5px 3px #7B7B7B29;
+}
+
+
+input {
+    margin-top: 40px;
+    margin-left: 80px;
+    box-shadow: #7B7B7B29;
+}
+
+
+label {
+    color: grey;
+    font-size: 18px;
+}

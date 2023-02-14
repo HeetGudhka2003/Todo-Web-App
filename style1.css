@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.task {
+    width: 400px;
+    height: 170px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-left: 500px;
+    border-radius: 12px;
+    box-shadow: 2px 2px #7B7B7B29;
+
+}
+
+.task p {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    float: right;
+    margin-top: 23px;
+    margin-right: 12px;
+    color: grey;
+    box-shadow: 3px #7B7B7B29;
+    text-decoration: none;
+}
+
+hr.one {
+    box-shadow: 3px 3px 5px #7B7B7B29 ;
+}
+
+.input-box {
+    padding: 25px;
+}
+
+input {
+    padding: 9px 1px;
+    background-color: #f7f7f7;
+    border: #EDEDED;
+    text-align: center;
+}
+
+.add-task {
+    float: right;
+    margin-top: 8px;
+    padding: 7px 11px;
+    background-color: #00A5EC;
+    border: #00A5EC;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
